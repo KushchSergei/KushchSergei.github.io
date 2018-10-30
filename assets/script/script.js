@@ -378,7 +378,7 @@ const MessageList = {
                 msg.author="Kushch";
                 msg.text=this.msg_text;
                 msg.date=dat;
-                messages.push(msg);
+                this.messages.push(msg);
                 console.log(messages);                
             }
     },

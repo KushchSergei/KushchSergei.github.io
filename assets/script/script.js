@@ -379,7 +379,7 @@ const MessageList = {
                 msg.text=this.msg_text;
                 msg.date=dat;
                 this.messages.push(msg);
-                console.log(messages);                
+		this.msg_text='';
             }
     },
     beforeMount: function(){
